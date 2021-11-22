@@ -26,7 +26,7 @@ contract TestGraffGremsEpisode1 is ERC721Enumerable, Ownable {
     maxSupply = 500;
     nftPerAddressLimit = 1; // limit for presale
     reservedAmount = 18; // giveaways + team
-    setBaseURI('--prereveal uri--');
+    setBaseURI("--prereveal uri--");
   }
 
   // internal
