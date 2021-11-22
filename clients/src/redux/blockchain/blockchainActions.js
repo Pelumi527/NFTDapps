@@ -41,6 +41,7 @@ export const connect = () => {
       },
     });
     const abi = await abiResponse.json();
+    console.log(abi, "abi")
     const configResponse = await fetch("/config/config.json", {
       headers: {
         "Content-Type": "application/json",
